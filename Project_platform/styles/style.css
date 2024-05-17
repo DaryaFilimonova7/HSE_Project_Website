@@ -1,0 +1,54 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #0a0a0a;
+  
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    -webkit-text-size-adjust: 100%;
+  
+  }
+
+
+
+  /* Навигация */
+.navbar {
+    background-color: #0F2D69;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 2px;
+    padding-bottom: 1px;
+  }
+  .sticky-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .navbar-toggler {
+    margin-top: 2px;
+    margin-bottom: 1px;
+    border: none;
+    background: transparent;
+    box-shadow:  5px 5px 15px #061637,
+               -3px -3px 8px #304b80;
+  }
+  .nav-link {
+    color:#f2f2f2 !important;
+  }
+  .menu {
+    background: transparent;
+    border: none;
+  }
+  .dropdown-toggle {
+    background-color: #0F2D69;
+  }
+  .dropdown-menu a:hover, a:focus, a:active {
+    background: transparent;
+  }
+  .dropdown-item {
+    color:#f2f2f2;
+  }
+  .navbar-nav li {
+    padding-right: 20px;
+  }
+
+
+  
