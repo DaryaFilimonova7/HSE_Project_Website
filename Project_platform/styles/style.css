@@ -8,6 +8,9 @@ body {
   
   }
 
+  .page-container {
+    padding: 100px 150px 170px 100px;
+  }
 
   /* Навигация */
 .navbar {
@@ -23,7 +26,11 @@ body {
     float: left;
     margin-right: 62%;
   }
-
+  .current {
+    text-decoration: underline !important;
+    text-decoration-thickness: 0.5px !important;
+    text-underline-offset: 7px;
+  }
   .nav-left ul li {
     float: left;
   }
