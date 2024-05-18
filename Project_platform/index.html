@@ -26,7 +26,7 @@
     
     <!-- Навигация -->
     <nav class="navbar navbar-expand-lg sticky-top">
-        <div class="container">
+        <div class="container-fluid">
 
             <!-- Иконка меню для адаптивности -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,7 +37,9 @@
       
             <!-- Пункты навигации -->
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <!-- Пункты навигации слева -->
+            <div class ="nav-left">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-auto">
               <li class="nav-item active">
                 <a class="nav-link current" aria-current="page" href="index.html">Главная</a>
               </li>
@@ -48,28 +50,38 @@
                   Проекты
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Активные заявки</a></li>
-                  <li><a class="dropdown-item" href="#">Архив заявок</a></li>
+                  <li><a class="dropdown-item" href="active-projects.html">Активные заявки</a></li>
+                  <li><a class="dropdown-item" href="archived-projects.html">Архив заявок</a></li>
                 </ul>
               </li>
               
               <li class="nav-item">
                 <a class="nav-link" href="contacts.html">Контакты</a>
               </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="profile.html">Личный кабинет</a>
-              </li>
               
-            </ul>
+              </ul>
+            </div>
+            <!-- Пункты навигации справа -->
+            <div class="nav-right">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="profile.html">Личный кабинет</a>
+                </li>
+              </ul>
+            </div>
       
           </div>
         </div>
     </nav>
 
 
-    <main>
-        <h1>Проектная платформа НИУ ВШЭ</h1>
+    <main class="home-page">
+      <div class="main-page">
+        <div class="main-page_container container">
+          <button class="main-page_button" onclick="location.href='active-projects.html'"><span>Перейти к проектам</span></button>
+          <h2 class="main-page_title">Проектная платформа НИУ ВШЭ</h2>
+        </div>
+      </div>
     </main>
 
 

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Inter", sans-serif;
     color: #0a0a0a;
   
     -webkit-font-smoothing: antialiased;
@@ -9,7 +9,6 @@ body {
   }
 
 
-
   /* Навигация */
 .navbar {
     background-color: #0F2D69;
@@ -17,6 +16,18 @@ body {
     padding-top: 2px;
     padding-bottom: 1px;
   }
+  .container-fluid {
+    justify-content: space-between;
+  }
+  .nav-left {
+    float: left;
+    margin-right: 62%;
+  }
+
+  .nav-left ul li {
+    float: left;
+  }
+
   .sticky-top {
     position: fixed;
     top: 0;
@@ -28,7 +39,7 @@ body {
     border: none;
     background: transparent;
     box-shadow:  5px 5px 15px #061637,
-               -3px -3px 8px #304b80;
+               -3px -3px 8px #172a51;
   }
   .nav-link {
     color:#f2f2f2 !important;
@@ -52,3 +63,59 @@ body {
 
 
   
+/* Название платформы */
+.main-page {
+  background-image: url("/Project_platform/img/Start_page.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: cover;
+}
+
+.main-page_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main-page_title {
+  position: absolute;
+  width: 700px;
+  height: 187px;
+  left: 45px;
+  top: 300px;
+  font-weight: 400 !important;
+  font-style: normal;
+  font-size: 65px;
+  line-height: 70px;
+  color:#1a1a1a;
+  padding-top: 40px;
+}
+.main-page_button {
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  left: 48px;
+  top: 275px;
+
+  font-weight: 400;
+  line-height: 35px;
+
+  background: white;
+  border-style: solid;
+  border-color: #0F2D69;
+  color:#0F2D69;
+
+}
+.welcome-section_button span {
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
