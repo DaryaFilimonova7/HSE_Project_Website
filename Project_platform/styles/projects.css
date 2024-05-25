@@ -1,0 +1,47 @@
+/* Поле поиска */
+.search_btn {
+    background-color: #0F2D69 !important;
+    margin-right: 5px;
+}
+.search_btn:hover {
+    background-color: #184295 !important;
+}
+.form-control {
+    border: var(--bs-border-width) solid rgb(55, 55, 55) !important;
+}
+
+/* Каталог проектов */
+.projects-list {
+    padding-top: 60px;
+}
+.projects-list_row {
+    margin-bottom: 40px;
+}
+.card {
+    border-radius: 15px !important;
+    border: solid rgb(55, 55, 55) 0.8px !important;
+}
+.card-type {
+    font-style: italic;
+    padding: 3px 0 110px 0;
+}
+.card-research {
+    color: #550991;
+}
+.card-practical {
+    color: #FD4C00;
+}
+.card-service {
+    color: #0453ED;
+}
+.card-more {
+    margin-bottom: 20px;
+    margin-right: 61%;
+}
+.like_btn {
+    background-color: #0F2D69 !important;
+    padding: 5px 7px !important;
+}
+.like_btn:hover, .like_btn:active, .like_btn:focus {
+    background-color: #177A31 !important;
+}
