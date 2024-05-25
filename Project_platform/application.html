@@ -76,13 +76,55 @@
     </nav>
 
 
-    <main class="home-page">
+    <main class="application">
       <div class="page-container">
-        
-        
         <!-- Тут основной контент -->
-    
 
+          <br>Подача заявки на проект</br>
+
+          <br>Название проекта</br>
+          <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Название проекта" aria-label="Название проекта" aria-describedby="basic-addon1">
+          </div>
+
+          <br>Тип проекта</br>
+          <div class="input-group mb-3">
+              <select class="form-select" id="inputGroupSelect01" >
+                <option selected>Выберите...</option>
+                <option value="1">Исследовательский</option>
+                <option value="2">Прикладной</option>
+                <option value="3">Сервисный</option>
+              </select>
+          </div>
+
+          <br>Описание проекта</br>
+          <div class="input-group">
+              <textarea class="form-control" placeholder="Цель, задачи, ожидаемые результы, ..." aria-label="Описание проекта"></textarea>
+          </div>
+
+          <br>Ресурсы проекта</br>
+          <div class="input-group">
+              <textarea class="form-control" placeholder="1. Ресурс, необходимое количество&#10;2. ..." aria-label="Ресурсы"></textarea>
+
+          </div>
+
+          <br>Стоимость проекта</br>
+            <div class="input-group">
+              <input type="number" class="form-control" placeholder="100000" aria-label="Стоимость">
+              <span class="input-group-text">₽</span>
+            </div>
+
+          <br>Требования к участникам</br>
+            <div class="input-group">
+              <textarea class="form-control" placeholder="1. Требование&#10;2. ..." aria-label="Требования"></textarea>
+          </div>
+
+          <br>Необходимое количество участников</br>
+            <div class="input-group mb-3">
+              <input type="number" class="form-control" placeholder="5" aria-label="Число участников" aria-describedby="basic-addon1">
+          </div>
+
+          <br><input class="btn btn-primary" type="submit" value="Отправить заявку"></br>
       </div>
     </main>
 
