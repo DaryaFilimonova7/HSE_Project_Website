@@ -1,11 +1,12 @@
 body {
-    font-family: "Inter", sans-serif;
-    color: #0a0a0a;
   
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
     -webkit-text-size-adjust: 100%;
   
+  }
+p {
+    font-family: "Inter", sans-serif !important;
   }
 
   .page-container {

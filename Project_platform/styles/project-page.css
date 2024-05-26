@@ -1,3 +1,6 @@
+.project-name_container {
+    width: 55%;
+}
 .project-research {
     color: #550991;
 }
@@ -6,4 +9,61 @@
 }
 .project-service {
     color: #0453ED;
+}
+.project-name {
+    padding-bottom: 5%;
+}
+.row {
+    justify-content: space-between;
+}
+.project-item {
+    padding-bottom: 20px;
+}
+.project-item_header {
+    text-decoration: underline;
+    font-weight: 400;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 6px;
+    padding-bottom: 5px;
+}
+.project-likes {
+    margin-bottom: 40px;
+}
+.project-likes_count {
+    font-size: 40px;
+    margin-right: 12px;
+}
+.project-likes_voices {
+    font-size: 20px;
+}
+.project-likes_button {
+    margin-top: 5px;
+    width: 47%;
+    background-color: #0F2D69 !important;
+}
+.project-likes_button span {
+    color:white;
+}
+.project-likes_button:hover, .project-likes_button:active, .project-likes_button:focus {
+    background-color: #177A31 !important;
+}
+.project-participation {
+    width: 80%;
+}
+.project-participation_header {
+    font-weight: 400;
+}
+.project-participation_item {
+    margin-bottom: 18px;
+}
+.project-participations_button {
+    margin-top: 5px;
+    background-color: #0F2D69 !important;
+    width: 100%;
+}
+.project-participations_button span {
+    color:white;
+}
+.project-participations_button:hover, .project-participations_button:focus, .project-participations_button:active {
+    background-color: #177A31 !important;
 }
