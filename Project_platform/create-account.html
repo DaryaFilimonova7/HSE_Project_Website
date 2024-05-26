@@ -78,11 +78,74 @@
 
     <main class="create-account">
       <div class="page-container">
-        
-        
         <!-- Тут основной контент -->
-    
+        <img src="icon_profile_standart.png" class="rounded float-start" alt="icon_profile_standart.png">
+        <br> Добавьте фотографию профиля</br>
+        <br><button type="button" class="btn btn-link">Выбрать...</button></br>
 
+        <p></p>
+        <br>ФИО</br>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-label="ФИО" aria-describedby="basic-addon1">
+        </div>
+
+        <br>Email</br>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="example@edu.hse.ru" aria-label="email" aria-describedby="basic-addon1">
+        </div>
+
+        <br>Номер телефона</br>
+        <div class="input-group mb-3">
+            <input type="tel" class="form-control" placeholder="+7(___)-___-__-__" aria-label="phone" aria-describedby="basic-addon1" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+        </div>
+
+        <br>Филиал</br>
+        <div class="input-group mb-3">
+            <select class="form-select" id="inputGroupSelect01" >
+            <option selected>Выберите...</option>
+            <option value="1">Москва</option>
+            <option value="2">Санкт-Петербург</option>
+            <option value="3">Нижний Новгород</option>
+            <option value="3">Пермь</option>
+            </select>
+        </div>
+
+        <br>Факультет</br>
+        <div class="input-group mb-3">
+            <select class="form-select" id="inputGroupSelect01" >
+            <option selected>Выберите...</option>
+            <option value="1">Информатики, математики и компьютерных наук</option>
+            <option value="2">Гуманитарных наук</option>
+            <option value="3">Менеджмента</option>
+            <option value="3">Права</option>
+            </select>
+        </div>
+
+        <br>Образовательная программа</br>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-label="ОП" aria-describedby="basic-addon1">
+        </div>
+
+        <br>Уровень</br>
+        <div class="input-group mb-3">
+            <select class="form-select" id="inputGroupSelect01" >
+            <option selected>Выберите...</option>
+            <option value="1">Бакалавр</option>
+            <option value="2">Магистратура</option>
+            </select>
+        </div>
+
+        <br>Курс</br>
+        <div class="input-group mb-3">
+            <input type="number" class="form-control" aria-label="Курс" aria-describedby="basic-addon1" pattern="[1-4]{1}">
+        </div>
+
+        <br>Номер группы</br>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="21БИ-2" aria-label="Номер группы" aria-describedby="basic-addon1">
+        </div>
+
+        <br><input class="btn btn-primary" type="submit" value="Завершить регистрацию"></br>
       </div>
     </main>
 
