@@ -1,0 +1,39 @@
+.project-participations_button {
+    margin-top: 5px;
+    background-color: #0F2D69 !important;
+    width: 100%;
+}
+    .project-participations_button span {
+        color: white;
+    }
+
+    .project-participations_button:hover, .project-participations_button:focus, .project-participations_button:active {
+        background-color: #177A31 !important;
+    }
+.moder_btn {
+    background-color: #696969 !important;
+    padding: 5px 7px !important;
+    justify-content: center;
+}
+
+    .moder_btn:hover, .moder_btn:active, .moder_btn:focus {
+        background-color: #177A31 !important;
+    }
+.liked_btn {
+    background-color: #0F2D69 !important;
+    padding: 5px 7px !important;
+    justify-content: center;
+}
+
+    .liked_btn:hover, .liked_btn:active, .liked_btn:focus {
+        background-color: #177A31 !important;
+    }
+.created_btn {
+    background-color: #0F2D69 !important;
+    padding: 5px 7px !important;
+    justify-content: center;
+}
+
+    .created_btn:hover, .created_btn:active, .created_btn:focus {
+        background-color: #177A31 !important;
+    }
