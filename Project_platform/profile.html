@@ -78,50 +78,87 @@
 
     <main class="profile">
       <div class="page-container">
-        <img src="img/icon_profile_main_ellipse.png" class="rounded float-start" alt="icon_profile_main_ellipse.png" width="150" height="150">
-        <br><b>Елена Лесанова</b></br>
-        <br>Студентка</br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br><u>Email:</u>
-        <p>example@edu.hse.ru</p>
-        <br><u>Номер телефона:</u>
-        <p>+ 7 (111) 111-11-11</p>
-        <br><u>Номер группы:</u>
-        <p>21БИ - 2</p>
-        <br><u>Уровень:</u>
-        <p>Бакалавриат</p>
-        <br><u>Курс:</u>
-        <p>3</p>
-        <br><u>Образовательная программа:</u>
-        <p>Бизнес-информатика</p>
-        <br><u>Факультет:</u>
-        <p>Факультет информатики, математики и компьютерных наук</p>
-        <br><u>Филиал</u>
-        <p>НИУ ВШЭ Нижний Новгород</p>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br><button type="button" class="btn btn-link">Настройки</button>
-        <br><button type="button" class="btn btn-link">Поддержка</button>
-        <br><button type="button" class="btn btn-link">Выйти из аккаунта</button>
-        <br>
-        <button class="btn project-participations_button"><span>Подать заявку на проект</span></button>
-        <br>
-        <br>
-        <br><button class="btn created_btn" type="submit"><img src="img/icon_ideas.png" alt="created" width="19" height="18"></button><button type="button" class="btn btn-link">Созданные заявки</button>
-        <br><button class="btn liked_btn" type="submit"><img src="img/icon_like.png" alt="liked" width="19" height="18"></button><button type="button" class="btn btn-link">Понравившееся заявки</button>
-        <br>
-        <br>
-        <br><button class="btn moder_btn" type="submit"><img src="img/icon_application.png" alt="moder" width="19" height="18"></button><button type="button" class="btn btn-link">Заявки на модерацию</button>
 
+        <!-- Верхний блок (фото и имя) -->
+        <div class="row profile_header">
+          <div class="col-3 profile_header_photo">
+            <img src="img/icon_profile_main_ellipse.png" class="rounded float-start" alt="icon_profile_main_ellipse.png" width="150" height="150">
+          </div>
+          <div class="col-9">
+            <div class="profile_header_edit">
+              <button class="btn profile_header_edit_btn"><img src="img/icon_editing.png" alt="edit" width="20" height="20"></button>
+            </div>
+            <hr class="profile_header_line">
+            <h2 class="profile_header_name">Елена Лесанова</h2>
+            <p>Студентка</p>
+          </div>
+        </div>
+
+        
+        <div class="row profile_main">
+          <!-- Колонка данных (слева) -->
+          <div class="col-7">
+            <h4 class="profile-item_header">Email:</h4>
+            <p>example@edu.hse.ru</p>
+            <h4 class="profile-item_header">Номер телефона:</h4>
+            <p>+ 7 (111) 111-11-11</p>
+            <h4 class="profile-item_header">Номер группы:</h4>
+            <p>21БИ - 2</p>
+            <h4 class="profile-item_header">Уровень:</h4>
+            <p>Бакалавриат</p>
+            <h4 class="profile-item_header">Курс:</h4>
+            <p>3</p>
+            <h4 class="profile-item_header">Образовательная программа:</h4>
+            <p>Бизнес-информатика</p>
+            <h4 class="profile-item_header">Факультет:</h4>
+            <p>Факультет информатики, математики и компьютерных наук</p>
+            <h4 class="profile-item_header">Филиал</h4>
+            <p>НИУ ВШЭ Нижний Новгород</p>
+          </div>
+          <!-- Колонка действий (справа) -->
+          <div class="col-5">
+            <button class="btn project-participations_btn" onclick="location.href='application.html'"><span>Подать заявку на проект</span></button>
+
+            
+            <div class="row profile_actions">
+              <div class="col-2 profile_actions_icon">
+                <button class="btn created_btn" type="submit"><img src="img/icon_ideas.png" alt="created" width="28" height="28"></button>
+              </div>
+              <div class="col profile_actions_text">
+                <a href="#" class="profile_actions_link">Созданные заявки</a>
+              </div>
+            </div>
+            <div class="row profile_actions">
+              <div class="col-2 profile_actions_icon">
+                <button class="btn created_btn" type="submit"><img src="img/icon_like.png" alt="created" width="28" height="28"></button>
+              </div>
+              <div class="col profile_actions_text">
+                <a href="#" class="profile_actions_link">Понравившееся заявки</a>
+              </div>
+            </div>
+            <hr class="profile_actions_line">
+            <div class="row profile_actions">
+              <div class="col-2 profile_actions_icon">
+                <button class="btn moder_btn" type="submit"><img src="img/icon_application.png" alt="created" width="28" height="28"></button>
+              </div>
+              <div class="col profile_actions_text">
+                <a href="#" class="profile_actions_link">Заявки на модерацию</a>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+
+        <div class="row profile_footer">
+          <div class="col">
+            <br><a href="#" class="profile_footer_link">Настройки</a>
+          <br><a href="#" class="profile_footer_link">Поддержка</a>
+          <br><a href="#" class="profile_footer_link">Выйти из аккаунта</a>
+          </div>
+        </div>
+        
+
+        
       </div>
     </main>
 

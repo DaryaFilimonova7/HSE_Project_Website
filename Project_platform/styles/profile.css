@@ -1,15 +1,4 @@
-.project-participations_button {
-    margin-top: 5px;
-    background-color: #0F2D69 !important;
-    width: 100%;
-}
-    .project-participations_button span {
-        color: white;
-    }
 
-    .project-participations_button:hover, .project-participations_button:focus, .project-participations_button:active {
-        background-color: #177A31 !important;
-    }
 .moder_btn {
     background-color: #696969 !important;
     padding: 5px 7px !important;
@@ -34,6 +23,87 @@
     justify-content: center;
 }
 
-    .created_btn:hover, .created_btn:active, .created_btn:focus {
-        background-color: #177A31 !important;
-    }
+ .created_btn:hover, .created_btn:active, .created_btn:focus {
+    background-color: #177A31 !important;
+}
+.profile_header_photo {
+    width:15% !important;
+}
+.profile_header_edit {
+    display: flex;
+    justify-content: end;
+    padding-top: 28px;
+    padding-bottom: 9px;
+}
+.profile_header_edit_btn {
+    background-color: #0F2D69 !important;
+    padding: 7px 9px !important;
+}
+.profile_header_edit_btn:hover {
+    background-color: #177A31 !important;
+}
+.profile_header_name {
+    padding-top: 2px;
+    margin-bottom: 4px !important;
+}
+.profile_header_line {
+    background: #0F2D69; 
+    height: 1px !important; 
+    margin: 0 !important;
+    opacity: 50%;
+}
+
+.profile_main {
+    padding: 40px 0;
+}
+.profile-item_header {
+    text-decoration: underline;
+    font-weight: 400;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 6px;
+    padding-bottom: 5px;
+}
+.profile_main p {
+    margin-bottom: 17px;
+    font-size: larger;
+}
+.project-participations_btn {
+    margin-top: 5px;
+    background-color: #0F2D69 !important;
+    width: 70%;
+    margin-bottom: 30px;
+}
+.project-participations_btn span {
+    color: white;
+}
+.project-participations_btn:hover, .project-participations_btn:focus, .project-participations_btn:active {
+    background-color: #177A31 !important;
+}
+.profile_actions {
+    padding: 10px 0;
+}
+.profile_actions_icon {
+    width: 14% !important;
+}
+.profile_actions_text {
+    padding-top: 8px;
+}
+.profile_actions_link {
+    color: black;
+    outline: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+.profile_actions_line {
+    width: 71%;
+    background: #0F2D69; 
+    height: 1.5px !important;
+    opacity: 50%; 
+}
+
+.profile_footer {
+    margin-top: 210px !important;
+}
+.profile_footer_link {
+    font-size: 17px;
+}
