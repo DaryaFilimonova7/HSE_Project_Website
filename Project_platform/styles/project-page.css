@@ -93,3 +93,39 @@
 .send-comment_btn:hover {
     border: solid #0F2D69 1px;
 }
+.project-line {
+    color:#0F2D69; 
+    size:8px; 
+    margin-top: 50px;
+}
+.project_admin-field {
+    padding: 50px 0;
+}
+.project_admin-field_header {
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.project_admin-field_buttons {
+    padding-top: 49px;
+}
+.project_admin-field_reject {
+    background-color: #535353 !important;
+    margin-bottom: 8px;
+    width: 70%;
+}
+.project_admin-field_reject:hover {
+    background-color: #6c6c6c !important;
+}
+.project_admin-field_reject span {
+    color: white !important;
+}
+.project_admin-field_acept {
+    background-color: #0B7F0B !important;
+    width: 70%;
+}
+.project_admin-field_acept span {
+    color: white !important;
+}
+.project_admin-field_acept:hover {
+    background-color: #2cb12c !important;
+}
