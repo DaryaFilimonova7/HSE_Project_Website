@@ -65,7 +65,7 @@
             <div class="nav-right">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="profile.html">Личный кабинет</a>
+                  <a class="nav-link" href="#" id="open_pop_up">Личный кабинет</a>
                 </li>
               </ul>
             </div>
@@ -80,6 +80,22 @@
         <div class="main-page_container container">
           <button class="main-page_button" onclick="location.href='active-projects.html'"><span>Перейти к проектам</span></button>
           <h2 class="main-page_title">Проектная платформа НИУ ВШЭ</h2>
+
+            <div class="pop_up" id="pop_up">
+                <div class="pop_up_container" id="pop_up_container">
+                    <div class="pop_up_body" id="pop_up_body">
+                        <p>Вход в личный кабинет</p>
+                        <form action="">
+                            <input type="text" placeholder="Логин">
+                            <input type="text" placeholder="Пароль">
+                            <button onclick="location.href='profile.html'">Войти</button>
+                            <br><a class="nav-link-2" href="create-account.html">Регистрация</a>
+                        </form>
+                        <div class="pop_up_close" id="pop_up_close">&#x2715</div>
+                    </div>
+                </div>
+            </div>
+            
         </div>
       </div>
     </main>
