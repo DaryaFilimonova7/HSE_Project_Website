@@ -1,0 +1,12 @@
+.profile_header_photo {
+    width:15% !important;
+}
+.profile_header_line {
+    background: #0F2D69; 
+    height: 2px !important; 
+    opacity: 50%;
+    margin-top: 50px !important;
+}
+.profile_header p {
+    margin-bottom: 5px !important;
+}

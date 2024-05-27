@@ -78,12 +78,19 @@
 
     <main class="create-account">
       <div class="page-container">
-        <!-- Тут основной контент -->
-        <img src="img/icon_profile_standart.png" class="rounded float-start" alt="icon_profile_standart.png">
-        <br> Добавьте фотографию профиля</br>
-        <br><button type="button" class="btn btn-link">Выбрать...</button></br>
+        
+        <div class="row profile_header">
+          <div class="col-3 profile_header_photo">
+            <img src="img/icon_profile_standart.png" class="rounded float-start" alt="icon_profile_standart.png" width="150" height="150">
+          </div>
+          <div class="col-9">
+            <hr class="profile_header_line">
+            <p>Добавьте фотографию профиля</p>
+            <a href="#">Выбрать...</a>
+          </div>
+        </div>
 
-        <p></p>
+        <br>
         <br>ФИО</br>
         <div class="input-group mb-3">
             <input type="text" class="form-control" aria-label="ФИО" aria-describedby="basic-addon1">
