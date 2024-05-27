@@ -67,3 +67,29 @@
 .project-participations_button:hover, .project-participations_button:focus, .project-participations_button:active {
     background-color: #177A31 !important;
 }
+.project-item_comment {
+    padding-top: 20px;
+}
+.col_img {
+    padding: 0 0 0 15px !important;
+}
+.col_comment {
+    padding: 0 !important;
+}
+.project-item_comment_name {
+    color: #0F2D69;
+    font-size: 15px;
+}
+.col_img {
+    width: 18% !important;
+}
+.project-item_comment_area {
+    padding: 20px 0;
+}
+.send-comment_btn {
+    margin: 20px 5px;
+
+}
+.send-comment_btn:hover {
+    border: solid #0F2D69 1px;
+}
